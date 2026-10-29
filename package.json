@@ -1,0 +1,38 @@
+{
+  "name": "@kx9-dev/docs",
+  "version": "0.1.0",
+  "description": "Architecture, operating flows, OpenAPI specification, security boundaries and mainnet configuration.",
+  "type": "module",
+  "license": "MIT",
+  "author": "KX-9 contributors <dev@kx9.tech>",
+  "homepage": "https://kx9.tech/docs.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kx9-dev/kx9-docs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kx9-dev/kx9-docs/issues"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "kx9",
+    "documentation",
+    "openapi",
+    "architecture",
+    "web3"
+  ],
+  "files": [
+    "*.md",
+    "openapi.yaml",
+    "LICENSE",
+    "NOTICE"
+  ],
+  "scripts": {
+    "test": "node --test tests/docs.test.mjs"
+  }
+}
